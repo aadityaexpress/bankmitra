@@ -1,0 +1,7 @@
+service_id,institution,service_type,location_label,authorised_status,verification_source,last_verified_at,contact_route,is_synthetic
+SRV-RAMPUR-BC-01,Synthetic Gramin Bank,AUTHORISED_BC_KIOSK,Kalyanpur Gram Panchayat CSP Kiosk,True,LEAD_BANK_OFFICER_AUDIT,2026-09-15T10:00:00Z,CSP-Code-88210 / Ph: 0522-290001 (Simulated),True
+SRV-RAMPUR-BC-02,Synthetic Gramin Bank,AUTHORISED_BC_KIOSK,Badaun Crossroad BC Sakhi Point,True,CORPORATE_BC_AUDIT,2026-04-10T11:00:00Z,CSP-Code-99412 / Ph: 0522-290002 (Simulated),True
+SRV-CENTRAL-BR-01,State Bank of India (Synthetic Sim),NON_HOME_BRANCH,"Civil Lines Non-Home Hub, District HQ",True,RBI_BRANCH_ROSTER_Q3,2026-10-01T09:30:00Z,Branch Code: 04218 / Helpdesk: 1800-SYNTH-01,True
+SRV-RURAL-BR-02,Punjab National Bank (Synthetic Sim),NON_HOME_BRANCH,Block Development Road Branch,False,BANK_COMPLIANCE_NOTICE,2026-08-01T12:00:00Z,Branch Code: 09114 (Temporarily Closed),True
+SRV-VCIP-PORTAL-01,Bank of Baroda (Synthetic Sim),OFFICIAL_VCIP_PORTAL,Official Bank Video-KYC Direct Gateway,True,CYBER_SECURITY_AUDIT,2026-10-15T08:00:00Z,https://synthetic.bankofbaroda.sim/vcip,True
+SRV-OMBUDSMAN-DESK-01,Lead District Bank Redressal Cell,INTERNAL_OMBUDSMAN_DESK,Lead District Office Grievance Cell,True,DISTRICT_COLLECTORATE_AUDIT,2026-09-20T14:00:00Z,grievance-leadbank@synthetic.sim / Toll-free: 1800-SYNTH-99,True

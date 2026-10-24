@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-10-23T16:56:49.407718Z",
+  "auditor": "Financial Inclusion Governance Engine (FIGE) - Phase 3 Audit",
+  "datasets": {
+    "pmjdy_live_snapshot_2026": {
+      "file": "pmjdy_live_snapshot_2026.csv",
+      "sha256": "0608788f80332bcb4b8fb95f9dcefe5406b55792959bd27f125a1fac14922eff",
+      "rows": 5,
+      "source_owner": "Department of Financial Services (DFS), Ministry of Finance",
+      "primary_url": "https://pmjdy.gov.in/account",
+      "reporting_date": "2026-10-14",
+      "evidence_tier": "Tier A (Verified Public Official Data)",
+      "unit_of_analysis": "Bank Category Aggregate"
+    },
+    "pmjdy_benchmark_2025": {
+      "file": "pmjdy_benchmark_2025.csv",
+      "sha256": "42926e8e8e828219fa281c3dd31c2716126b01b7c127dee5a5e98d0b82bda635",
+      "rows": 6,
+      "source_owner": "DFS / Parliamentary QA",
+      "reporting_date": "2025-02-28",
+      "evidence_tier": "Tier A / Tier B (Parliament QA)",
+      "unit_of_analysis": "National Scheme Aggregate"
+    },
+    "findex_india_timeseries_2011_2024": {
+      "file": "findex_india_timeseries_2011_2024.csv",
+      "sha256": "cf068d890663302cb434db02af057ca0230fc89e0a83f962a6f9493e594751af",
+      "rows": 5,
+      "source_owner": "World Bank Group",
+      "primary_url": "http://api.worldbank.org/v2/country/IND/indicator/FX.OWN.TOTL.ZS",
+      "evidence_tier": "Tier A (Verified Sovereign / Multilateral Data)",
+      "unit_of_analysis": "National Adult Population (Age 15+)"
+    },
+    "findex_2021_inactivity_barriers": {
+      "file": "findex_2021_inactivity_barriers.csv",
+      "sha256": "dd5f4765689ca3029077fec6ef13dce87e9592961d09f2f375abccbc12a746d6",
+      "rows": 16,
+      "source_owner": "World Bank Group",
+      "primary_url": "https://thedocs.worldbank.org/en/doc/0e271c416d4afa3237cf3a6226884d3b-0430062023/original/Findex2021-IndiaCountryBrief-DRAFT-2-03-23.pdf",
+      "evidence_tier": "Tier A (Published Report Findings - Microdata Replication Pending)",
+      "unit_of_analysis": "Survey Indicators & Stated Barriers"
+    },
+    "ncfe_flis_2019_zonal_literacy": {
+      "file": "ncfe_flis_2019_zonal_literacy.csv",
+      "sha256": "8c420a479858c7e6d1e2a3f31181824778623eb5c0a72e9c068fd3fe9735ff40",
+      "rows": 7,
+      "source_owner": "National Centre for Financial Education (NCFE)",
+      "primary_url": "https://ncfe.org.in/nflis/",
+      "evidence_tier": "Tier A (Verified Sovereign Survey Benchmark)",
+      "unit_of_analysis": "Zonal Adult Population (Age 18-79)"
+    },
+    "rbi_fi_index_timeseries": {
+      "file": "rbi_fi_index_timeseries.csv",
+      "sha256": "c5564b0c60bb6cd555963d163b611eff115fdf0debda767ebecc16fa4dcee825",
+      "rows": 4,
+      "source_owner": "Reserve Bank of India (FIDD)",
+      "primary_url": "https://www.rbi.org.in",
+      "evidence_tier": "Tier A (Verified Sovereign Data)",
+      "unit_of_analysis": "National Composite Metric (0-100)"
+    },
+    "npci_payment_rails_aggregates": {
+      "file": "npci_payment_rails_aggregates.csv",
+      "sha256": "026a873fa4030ac92b73500a742cc23a36bccc1723bb23f81b549736cfd20001",
+      "rows": 4,
+      "source_owner": "NPCI / DBT Mission",
+      "primary_url": "https://www.npci.org.in",
+      "evidence_tier": "Tier A (Verified Aggregate Operational Data)",
+      "unit_of_analysis": "Annual Financial Year Infrastructure Aggregates"
+    }
+  }
+}

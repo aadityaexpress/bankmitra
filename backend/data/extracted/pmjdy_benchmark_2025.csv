@@ -1,0 +1,7 @@
+indicator,value_crore_or_inr,unit,reporting_date,source_owner
+Total PMJDY Accounts,54.97,Crore Accounts,2025-02-28,DFS PMJDY
+Deposits in PMJDY Accounts,252750.0,INR Crore,2025-02-28,DFS PMJDY
+Women Beneficiary Accounts,30.6,Crore Accounts (55.67%),2025-02-28,DFS PMJDY
+Rural/Semi-urban Accounts,36.59,Crore Accounts (66.56%),2025-02-28,DFS PMJDY
+RuPay Debit Cards Issued,37.6,Crore Cards,2025-02-28,DFS PMJDY
+PMJDY Inoperative Rate Estimate,21.17,Percentage (%),2025-01-22,Lok Sabha Parliamentary QA

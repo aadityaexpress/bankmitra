@@ -1,0 +1,201 @@
+outcome_id,case_id,barrier_resolved_self_reported,barrier_resolved_verified,account_status_after,meaningful_use_status,outcome_source,follow_up_date,opt_out,notes,is_synthetic
+OUT-0001,CASE-0001,True,False,ACTIVATION_REQUESTED,SELF_REPORTED_USE,CONSENTED_FOLLOW_UP,2026-09-21,False,Customer says barrier resolved; official bank activation flag not yet verified.,True
+OUT-0002,CASE-0002,True,False,ACTIVATION_REQUESTED,SELF_REPORTED_USE,CONSENTED_FOLLOW_UP,2026-09-22,False,Customer says barrier resolved; official bank activation flag not yet verified.,True
+OUT-0003,CASE-0003,True,False,ACTIVATION_REQUESTED,SELF_REPORTED_USE,CONSENTED_FOLLOW_UP,2026-09-23,False,Customer says barrier resolved; official bank activation flag not yet verified.,True
+OUT-0004,CASE-0004,True,False,ACTIVATION_REQUESTED,SELF_REPORTED_USE,CONSENTED_FOLLOW_UP,2026-09-24,False,Customer says barrier resolved; official bank activation flag not yet verified.,True
+OUT-0005,CASE-0005,True,False,ACTIVATION_REQUESTED,SELF_REPORTED_USE,CONSENTED_FOLLOW_UP,2026-09-25,False,Customer says barrier resolved; official bank activation flag not yet verified.,True
+OUT-0006,CASE-0006,True,False,ACTIVATION_REQUESTED,SELF_REPORTED_USE,CONSENTED_FOLLOW_UP,2026-09-26,False,Customer says barrier resolved; official bank activation flag not yet verified.,True
+OUT-0007,CASE-0007,True,False,ACTIVATION_REQUESTED,SELF_REPORTED_USE,CONSENTED_FOLLOW_UP,2026-09-27,False,Customer says barrier resolved; official bank activation flag not yet verified.,True
+OUT-0008,CASE-0008,True,False,ACTIVATION_REQUESTED,SELF_REPORTED_USE,CONSENTED_FOLLOW_UP,2026-09-28,False,Customer says barrier resolved; official bank activation flag not yet verified.,True
+OUT-0009,CASE-0009,True,False,ACTIVATION_REQUESTED,SELF_REPORTED_USE,CONSENTED_FOLLOW_UP,2026-09-29,False,Customer says barrier resolved; official bank activation flag not yet verified.,True
+OUT-0010,CASE-0010,True,False,ACTIVATION_REQUESTED,SELF_REPORTED_USE,CONSENTED_FOLLOW_UP,2026-09-30,False,Customer says barrier resolved; official bank activation flag not yet verified.,True
+OUT-0011,CASE-0011,True,False,ACTIVATION_REQUESTED,SELF_REPORTED_USE,CONSENTED_FOLLOW_UP,2026-10-01,False,Customer says barrier resolved; official bank activation flag not yet verified.,True
+OUT-0012,CASE-0012,True,False,ACTIVATION_REQUESTED,SELF_REPORTED_USE,CONSENTED_FOLLOW_UP,2026-10-02,False,Customer says barrier resolved; official bank activation flag not yet verified.,True
+OUT-0013,CASE-0013,True,False,ACTIVATION_REQUESTED,SELF_REPORTED_USE,CONSENTED_FOLLOW_UP,2026-10-03,False,Customer says barrier resolved; official bank activation flag not yet verified.,True
+OUT-0014,CASE-0014,True,False,ACTIVATION_REQUESTED,SELF_REPORTED_USE,CONSENTED_FOLLOW_UP,2026-10-04,False,Customer says barrier resolved; official bank activation flag not yet verified.,True
+OUT-0015,CASE-0015,True,False,ACTIVATION_REQUESTED,SELF_REPORTED_USE,CONSENTED_FOLLOW_UP,2026-10-05,False,Customer says barrier resolved; official bank activation flag not yet verified.,True
+OUT-0016,CASE-0016,True,False,ACTIVATION_REQUESTED,SELF_REPORTED_USE,CONSENTED_FOLLOW_UP,2026-10-06,False,Customer says barrier resolved; official bank activation flag not yet verified.,True
+OUT-0017,CASE-0017,True,False,ACTIVATION_REQUESTED,SELF_REPORTED_USE,CONSENTED_FOLLOW_UP,2026-10-07,False,Customer says barrier resolved; official bank activation flag not yet verified.,True
+OUT-0018,CASE-0018,True,False,ACTIVATION_REQUESTED,SELF_REPORTED_USE,CONSENTED_FOLLOW_UP,2026-10-08,False,Customer says barrier resolved; official bank activation flag not yet verified.,True
+OUT-0019,CASE-0019,True,False,ACTIVATION_REQUESTED,SELF_REPORTED_USE,CONSENTED_FOLLOW_UP,2026-10-09,False,Customer says barrier resolved; official bank activation flag not yet verified.,True
+OUT-0020,CASE-0020,True,False,ACTIVATION_REQUESTED,SELF_REPORTED_USE,CONSENTED_FOLLOW_UP,2026-09-20,False,Customer says barrier resolved; official bank activation flag not yet verified.,True
+OUT-0021,CASE-0021,True,True,REACTIVATED_OPERATIONAL,NO_FURTHER_USE_WANTED,BRANCH_RECORD,2026-09-21,False,Account reactivated during camp; customer explicitly informed staff they do not need daily use.,True
+OUT-0022,CASE-0022,True,True,REACTIVATED_OPERATIONAL,NO_FURTHER_USE_WANTED,BRANCH_RECORD,2026-09-22,False,Account reactivated during camp; customer explicitly informed staff they do not need daily use.,True
+OUT-0023,CASE-0023,True,True,REACTIVATED_OPERATIONAL,NO_FURTHER_USE_WANTED,BRANCH_RECORD,2026-09-23,False,Account reactivated during camp; customer explicitly informed staff they do not need daily use.,True
+OUT-0024,CASE-0024,True,True,REACTIVATED_OPERATIONAL,NO_FURTHER_USE_WANTED,BRANCH_RECORD,2026-09-24,False,Account reactivated during camp; customer explicitly informed staff they do not need daily use.,True
+OUT-0025,CASE-0025,True,True,REACTIVATED_OPERATIONAL,NO_FURTHER_USE_WANTED,BRANCH_RECORD,2026-09-25,False,Account reactivated during camp; customer explicitly informed staff they do not need daily use.,True
+OUT-0026,CASE-0026,True,True,REACTIVATED_OPERATIONAL,NO_FURTHER_USE_WANTED,BRANCH_RECORD,2026-09-26,False,Account reactivated during camp; customer explicitly informed staff they do not need daily use.,True
+OUT-0027,CASE-0027,True,True,REACTIVATED_OPERATIONAL,NO_FURTHER_USE_WANTED,BRANCH_RECORD,2026-09-27,False,Account reactivated during camp; customer explicitly informed staff they do not need daily use.,True
+OUT-0028,CASE-0028,True,True,REACTIVATED_OPERATIONAL,NO_FURTHER_USE_WANTED,BRANCH_RECORD,2026-09-28,False,Account reactivated during camp; customer explicitly informed staff they do not need daily use.,True
+OUT-0029,CASE-0029,True,True,REACTIVATED_OPERATIONAL,NO_FURTHER_USE_WANTED,BRANCH_RECORD,2026-09-29,False,Account reactivated during camp; customer explicitly informed staff they do not need daily use.,True
+OUT-0030,CASE-0030,True,True,REACTIVATED_OPERATIONAL,NO_FURTHER_USE_WANTED,BRANCH_RECORD,2026-09-30,False,Account reactivated during camp; customer explicitly informed staff they do not need daily use.,True
+OUT-0031,CASE-0031,True,True,REACTIVATED_OPERATIONAL,NO_FURTHER_USE_WANTED,BRANCH_RECORD,2026-10-01,False,Account reactivated during camp; customer explicitly informed staff they do not need daily use.,True
+OUT-0032,CASE-0032,True,True,REACTIVATED_OPERATIONAL,NO_FURTHER_USE_WANTED,BRANCH_RECORD,2026-10-02,False,Account reactivated during camp; customer explicitly informed staff they do not need daily use.,True
+OUT-0033,CASE-0033,True,True,REACTIVATED_OPERATIONAL,NO_FURTHER_USE_WANTED,BRANCH_RECORD,2026-10-03,False,Account reactivated during camp; customer explicitly informed staff they do not need daily use.,True
+OUT-0034,CASE-0034,True,True,REACTIVATED_OPERATIONAL,NO_FURTHER_USE_WANTED,BRANCH_RECORD,2026-10-04,False,Account reactivated during camp; customer explicitly informed staff they do not need daily use.,True
+OUT-0035,CASE-0035,True,True,REACTIVATED_OPERATIONAL,NO_FURTHER_USE_WANTED,BRANCH_RECORD,2026-10-05,False,Account reactivated during camp; customer explicitly informed staff they do not need daily use.,True
+OUT-0036,CASE-0036,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,BC_TRANSACTION_LOG,2026-10-01,False,Customer completed Aadhaar KYC at local BC and successfully deposited savings.,True
+OUT-0037,CASE-0037,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,BC_TRANSACTION_LOG,2026-10-02,False,Customer completed Aadhaar KYC at local BC and successfully deposited savings.,True
+OUT-0038,CASE-0038,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,BC_TRANSACTION_LOG,2026-10-03,False,Customer completed Aadhaar KYC at local BC and successfully deposited savings.,True
+OUT-0039,CASE-0039,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,BC_TRANSACTION_LOG,2026-10-04,False,Customer completed Aadhaar KYC at local BC and successfully deposited savings.,True
+OUT-0040,CASE-0040,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,BC_TRANSACTION_LOG,2026-10-05,False,Customer completed Aadhaar KYC at local BC and successfully deposited savings.,True
+OUT-0041,CASE-0041,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,BC_TRANSACTION_LOG,2026-10-06,False,Customer completed Aadhaar KYC at local BC and successfully deposited savings.,True
+OUT-0042,CASE-0042,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,BC_TRANSACTION_LOG,2026-10-07,False,Customer completed Aadhaar KYC at local BC and successfully deposited savings.,True
+OUT-0043,CASE-0043,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,BC_TRANSACTION_LOG,2026-10-08,False,Customer completed Aadhaar KYC at local BC and successfully deposited savings.,True
+OUT-0044,CASE-0044,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,BC_TRANSACTION_LOG,2026-10-09,False,Customer completed Aadhaar KYC at local BC and successfully deposited savings.,True
+OUT-0045,CASE-0045,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,BC_TRANSACTION_LOG,2026-10-10,False,Customer completed Aadhaar KYC at local BC and successfully deposited savings.,True
+OUT-0046,CASE-0046,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,BC_TRANSACTION_LOG,2026-10-11,False,Customer completed Aadhaar KYC at local BC and successfully deposited savings.,True
+OUT-0047,CASE-0047,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,BC_TRANSACTION_LOG,2026-10-12,False,Customer completed Aadhaar KYC at local BC and successfully deposited savings.,True
+OUT-0048,CASE-0048,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,BC_TRANSACTION_LOG,2026-10-13,False,Customer completed Aadhaar KYC at local BC and successfully deposited savings.,True
+OUT-0049,CASE-0049,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,BC_TRANSACTION_LOG,2026-10-14,False,Customer completed Aadhaar KYC at local BC and successfully deposited savings.,True
+OUT-0050,CASE-0050,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,BC_TRANSACTION_LOG,2026-09-20,False,Customer completed Aadhaar KYC at local BC and successfully deposited savings.,True
+OUT-0051,CASE-0051,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,BC_TRANSACTION_LOG,2026-09-21,False,Customer completed Aadhaar KYC at local BC and successfully deposited savings.,True
+OUT-0052,CASE-0052,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,BC_TRANSACTION_LOG,2026-09-22,False,Customer completed Aadhaar KYC at local BC and successfully deposited savings.,True
+OUT-0053,CASE-0053,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,BC_TRANSACTION_LOG,2026-09-23,False,Customer completed Aadhaar KYC at local BC and successfully deposited savings.,True
+OUT-0054,CASE-0054,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,BC_TRANSACTION_LOG,2026-09-24,False,Customer completed Aadhaar KYC at local BC and successfully deposited savings.,True
+OUT-0055,CASE-0055,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,BC_TRANSACTION_LOG,2026-09-25,False,Customer completed Aadhaar KYC at local BC and successfully deposited savings.,True
+OUT-0056,CASE-0056,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,BC_TRANSACTION_LOG,2026-09-26,False,Customer completed Aadhaar KYC at local BC and successfully deposited savings.,True
+OUT-0057,CASE-0057,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,BC_TRANSACTION_LOG,2026-09-27,False,Customer completed Aadhaar KYC at local BC and successfully deposited savings.,True
+OUT-0058,CASE-0058,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,BC_TRANSACTION_LOG,2026-09-28,False,Customer completed Aadhaar KYC at local BC and successfully deposited savings.,True
+OUT-0059,CASE-0059,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,BC_TRANSACTION_LOG,2026-09-29,False,Customer completed Aadhaar KYC at local BC and successfully deposited savings.,True
+OUT-0060,CASE-0060,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,BC_TRANSACTION_LOG,2026-09-30,False,Customer completed Aadhaar KYC at local BC and successfully deposited savings.,True
+OUT-0061,CASE-0061,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-21,False,Standard synthetic progression.,True
+OUT-0062,CASE-0062,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-02,False,Standard synthetic progression.,True
+OUT-0063,CASE-0063,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-23,False,Standard synthetic progression.,True
+OUT-0064,CASE-0064,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-24,False,Standard synthetic progression.,True
+OUT-0065,CASE-0065,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-25,False,Standard synthetic progression.,True
+OUT-0066,CASE-0066,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-26,False,Standard synthetic progression.,True
+OUT-0067,CASE-0067,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-27,False,Standard synthetic progression.,True
+OUT-0068,CASE-0068,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-28,False,Standard synthetic progression.,True
+OUT-0069,CASE-0069,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-29,False,Standard synthetic progression.,True
+OUT-0070,CASE-0070,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-10,False,Standard synthetic progression.,True
+OUT-0071,CASE-0071,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-01,False,Standard synthetic progression.,True
+OUT-0072,CASE-0072,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-02,False,Standard synthetic progression.,True
+OUT-0073,CASE-0073,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-03,False,Standard synthetic progression.,True
+OUT-0074,CASE-0074,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-14,False,Standard synthetic progression.,True
+OUT-0075,CASE-0075,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-05,False,Standard synthetic progression.,True
+OUT-0076,CASE-0076,True,True,REACTIVATED_OPERATIONAL,NO_USE_DETECTED,UNVERIFIED,2026-10-06,False,Standard synthetic progression.,True
+OUT-0077,CASE-0077,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-07,False,Standard synthetic progression.,True
+OUT-0078,CASE-0078,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-08,False,Standard synthetic progression.,True
+OUT-0079,CASE-0079,True,False,INOPERATIVE_UNCHANGED,NO_USE_DETECTED,UNVERIFIED,2026-10-09,False,Standard synthetic progression.,True
+OUT-0080,CASE-0080,True,True,REACTIVATED_OPERATIONAL,NO_USE_DETECTED,UNVERIFIED,2026-09-20,False,Standard synthetic progression.,True
+OUT-0081,CASE-0081,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-21,False,Standard synthetic progression.,True
+OUT-0082,CASE-0082,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,UNVERIFIED,2026-09-27,False,Standard synthetic progression.,True
+OUT-0083,CASE-0083,True,False,INOPERATIVE_UNCHANGED,NO_USE_DETECTED,UNVERIFIED,2026-09-23,False,Standard synthetic progression.,True
+OUT-0084,CASE-0084,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-24,False,Standard synthetic progression.,True
+OUT-0085,CASE-0085,True,False,INOPERATIVE_UNCHANGED,NO_USE_DETECTED,UNVERIFIED,2026-09-25,False,Standard synthetic progression.,True
+OUT-0086,CASE-0086,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,UNVERIFIED,2026-10-01,False,Standard synthetic progression.,True
+OUT-0087,CASE-0087,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-27,False,Standard synthetic progression.,True
+OUT-0088,CASE-0088,True,True,REACTIVATED_OPERATIONAL,NO_USE_DETECTED,UNVERIFIED,2026-09-28,False,Standard synthetic progression.,True
+OUT-0089,CASE-0089,True,False,INOPERATIVE_UNCHANGED,NO_USE_DETECTED,UNVERIFIED,2026-09-29,False,Standard synthetic progression.,True
+OUT-0090,CASE-0090,True,True,REACTIVATED_OPERATIONAL,NO_USE_DETECTED,UNVERIFIED,2026-09-30,False,Standard synthetic progression.,True
+OUT-0091,CASE-0091,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-01,False,Standard synthetic progression.,True
+OUT-0092,CASE-0092,True,True,REACTIVATED_OPERATIONAL,NO_USE_DETECTED,UNVERIFIED,2026-10-02,False,Standard synthetic progression.,True
+OUT-0093,CASE-0093,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-03,False,Standard synthetic progression.,True
+OUT-0094,CASE-0094,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,UNVERIFIED,2026-10-09,False,Standard synthetic progression.,True
+OUT-0095,CASE-0095,True,False,INOPERATIVE_UNCHANGED,NO_USE_DETECTED,UNVERIFIED,2026-10-05,False,Standard synthetic progression.,True
+OUT-0096,CASE-0096,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-06,False,Standard synthetic progression.,True
+OUT-0097,CASE-0097,True,False,INOPERATIVE_UNCHANGED,NO_USE_DETECTED,UNVERIFIED,2026-10-07,False,Standard synthetic progression.,True
+OUT-0098,CASE-0098,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,UNVERIFIED,2026-10-13,False,Standard synthetic progression.,True
+OUT-0099,CASE-0099,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-09,False,Standard synthetic progression.,True
+OUT-0100,CASE-0100,True,True,REACTIVATED_OPERATIONAL,NO_USE_DETECTED,UNVERIFIED,2026-09-20,False,Standard synthetic progression.,True
+OUT-0101,CASE-0101,True,False,INOPERATIVE_UNCHANGED,NO_USE_DETECTED,UNVERIFIED,2026-09-21,False,Standard synthetic progression.,True
+OUT-0102,CASE-0102,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-22,False,Standard synthetic progression.,True
+OUT-0103,CASE-0103,True,False,INOPERATIVE_UNCHANGED,NO_USE_DETECTED,UNVERIFIED,2026-09-23,False,Standard synthetic progression.,True
+OUT-0104,CASE-0104,True,True,REACTIVATED_OPERATIONAL,NO_USE_DETECTED,UNVERIFIED,2026-09-24,False,Standard synthetic progression.,True
+OUT-0105,CASE-0105,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-25,False,Standard synthetic progression.,True
+OUT-0106,CASE-0106,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,UNVERIFIED,2026-09-26,False,Standard synthetic progression.,True
+OUT-0107,CASE-0107,True,False,INOPERATIVE_UNCHANGED,NO_USE_DETECTED,UNVERIFIED,2026-09-27,False,Standard synthetic progression.,True
+OUT-0108,CASE-0108,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-28,False,Standard synthetic progression.,True
+OUT-0109,CASE-0109,True,False,INOPERATIVE_UNCHANGED,NO_USE_DETECTED,UNVERIFIED,2026-09-29,False,Standard synthetic progression.,True
+OUT-0110,CASE-0110,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,UNVERIFIED,2026-09-30,False,Standard synthetic progression.,True
+OUT-0111,CASE-0111,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-01,False,Standard synthetic progression.,True
+OUT-0112,CASE-0112,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-02,False,Standard synthetic progression.,True
+OUT-0113,CASE-0113,True,False,INOPERATIVE_UNCHANGED,NO_USE_DETECTED,UNVERIFIED,2026-10-03,False,Standard synthetic progression.,True
+OUT-0114,CASE-0114,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-04,False,Standard synthetic progression.,True
+OUT-0115,CASE-0115,True,False,INOPERATIVE_UNCHANGED,NO_USE_DETECTED,UNVERIFIED,2026-10-05,False,Standard synthetic progression.,True
+OUT-0116,CASE-0116,True,True,REACTIVATED_OPERATIONAL,NO_USE_DETECTED,UNVERIFIED,2026-10-06,False,Standard synthetic progression.,True
+OUT-0117,CASE-0117,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-07,False,Standard synthetic progression.,True
+OUT-0118,CASE-0118,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,UNVERIFIED,2026-10-08,False,Standard synthetic progression.,True
+OUT-0119,CASE-0119,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-09,False,Standard synthetic progression.,True
+OUT-0120,CASE-0120,True,True,REACTIVATED_OPERATIONAL,NO_USE_DETECTED,UNVERIFIED,2026-09-20,False,Standard synthetic progression.,True
+OUT-0121,CASE-0121,True,False,INOPERATIVE_UNCHANGED,NO_USE_DETECTED,UNVERIFIED,2026-09-21,False,Standard synthetic progression.,True
+OUT-0122,CASE-0122,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,UNVERIFIED,2026-10-12,False,Standard synthetic progression.,True
+OUT-0123,CASE-0123,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-23,False,Standard synthetic progression.,True
+OUT-0124,CASE-0124,True,True,REACTIVATED_OPERATIONAL,NO_USE_DETECTED,UNVERIFIED,2026-09-24,False,Standard synthetic progression.,True
+OUT-0125,CASE-0125,True,False,INOPERATIVE_UNCHANGED,NO_USE_DETECTED,UNVERIFIED,2026-09-25,False,Standard synthetic progression.,True
+OUT-0126,CASE-0126,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-26,False,Standard synthetic progression.,True
+OUT-0127,CASE-0127,True,False,INOPERATIVE_UNCHANGED,NO_USE_DETECTED,UNVERIFIED,2026-09-27,False,Standard synthetic progression.,True
+OUT-0128,CASE-0128,True,True,REACTIVATED_OPERATIONAL,NO_USE_DETECTED,UNVERIFIED,2026-09-28,False,Standard synthetic progression.,True
+OUT-0129,CASE-0129,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-29,False,Standard synthetic progression.,True
+OUT-0130,CASE-0130,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,UNVERIFIED,2026-09-25,False,Standard synthetic progression.,True
+OUT-0131,CASE-0131,True,False,INOPERATIVE_UNCHANGED,NO_USE_DETECTED,UNVERIFIED,2026-10-01,False,Standard synthetic progression.,True
+OUT-0132,CASE-0132,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-02,False,Standard synthetic progression.,True
+OUT-0133,CASE-0133,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-03,False,Standard synthetic progression.,True
+OUT-0134,CASE-0134,True,True,REACTIVATED_OPERATIONAL,VERIFIED_VOLUNTARY_USE,UNVERIFIED,2026-09-29,False,Standard synthetic progression.,True
+OUT-0135,CASE-0135,True,False,INOPERATIVE_UNCHANGED,NO_USE_DETECTED,UNVERIFIED,2026-10-05,False,Standard synthetic progression.,True
+OUT-0136,CASE-0136,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-06,False,Standard synthetic progression.,True
+OUT-0137,CASE-0137,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-07,False,Standard synthetic progression.,True
+OUT-0138,CASE-0138,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-08,False,Standard synthetic progression.,True
+OUT-0139,CASE-0139,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-09,False,Standard synthetic progression.,True
+OUT-0140,CASE-0140,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-20,False,Standard synthetic progression.,True
+OUT-0141,CASE-0141,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-21,False,Standard synthetic progression.,True
+OUT-0142,CASE-0142,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-07,False,Standard synthetic progression.,True
+OUT-0143,CASE-0143,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-23,False,Standard synthetic progression.,True
+OUT-0144,CASE-0144,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-24,False,Standard synthetic progression.,True
+OUT-0145,CASE-0145,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-25,False,Standard synthetic progression.,True
+OUT-0146,CASE-0146,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-11,False,Standard synthetic progression.,True
+OUT-0147,CASE-0147,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-27,False,Standard synthetic progression.,True
+OUT-0148,CASE-0148,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-28,False,Standard synthetic progression.,True
+OUT-0149,CASE-0149,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-29,False,Standard synthetic progression.,True
+OUT-0150,CASE-0150,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-30,False,Standard synthetic progression.,True
+OUT-0151,CASE-0151,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-01,False,Standard synthetic progression.,True
+OUT-0152,CASE-0152,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-02,False,Standard synthetic progression.,True
+OUT-0153,CASE-0153,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-03,False,Standard synthetic progression.,True
+OUT-0154,CASE-0154,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-24,False,Standard synthetic progression.,True
+OUT-0155,CASE-0155,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-05,False,Standard synthetic progression.,True
+OUT-0156,CASE-0156,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-06,False,Standard synthetic progression.,True
+OUT-0157,CASE-0157,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-07,False,Standard synthetic progression.,True
+OUT-0158,CASE-0158,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-28,False,Standard synthetic progression.,True
+OUT-0159,CASE-0159,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-09,False,Standard synthetic progression.,True
+OUT-0160,CASE-0160,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-20,False,Standard synthetic progression.,True
+OUT-0161,CASE-0161,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-21,False,Standard synthetic progression.,True
+OUT-0162,CASE-0162,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-22,False,Standard synthetic progression.,True
+OUT-0163,CASE-0163,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-23,False,Standard synthetic progression.,True
+OUT-0164,CASE-0164,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-24,False,Standard synthetic progression.,True
+OUT-0165,CASE-0165,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-25,False,Standard synthetic progression.,True
+OUT-0166,CASE-0166,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-06,False,Standard synthetic progression.,True
+OUT-0167,CASE-0167,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-27,False,Standard synthetic progression.,True
+OUT-0168,CASE-0168,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-28,False,Standard synthetic progression.,True
+OUT-0169,CASE-0169,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-29,False,Standard synthetic progression.,True
+OUT-0170,CASE-0170,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-10,False,Standard synthetic progression.,True
+OUT-0171,CASE-0171,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-01,False,Standard synthetic progression.,True
+OUT-0172,CASE-0172,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-02,False,Standard synthetic progression.,True
+OUT-0173,CASE-0173,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-03,False,Standard synthetic progression.,True
+OUT-0174,CASE-0174,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-04,False,Standard synthetic progression.,True
+OUT-0175,CASE-0175,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-05,False,Standard synthetic progression.,True
+OUT-0176,CASE-0176,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-06,False,Standard synthetic progression.,True
+OUT-0177,CASE-0177,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-07,False,Standard synthetic progression.,True
+OUT-0178,CASE-0178,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-23,False,Standard synthetic progression.,True
+OUT-0179,CASE-0179,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-10-09,False,Standard synthetic progression.,True
+OUT-0180,CASE-0180,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-20,False,Standard synthetic progression.,True
+OUT-0181,CASE-0181,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-21,False,Standard synthetic progression.,True
+OUT-0182,CASE-0182,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-27,False,Standard synthetic progression.,True
+OUT-0183,CASE-0183,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-23,False,Standard synthetic progression.,True
+OUT-0184,CASE-0184,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-24,False,Standard synthetic progression.,True
+OUT-0185,CASE-0185,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,UNVERIFIED,2026-09-25,False,Standard synthetic progression.,True
+OUT-0186,CASE-0186,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,CONSENTED_FOLLOW_UP,2026-09-26,True,Outreach suppressed per customer explicit decline.,True
+OUT-0187,CASE-0187,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,CONSENTED_FOLLOW_UP,2026-09-27,True,Outreach suppressed per customer explicit decline.,True
+OUT-0188,CASE-0188,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,CONSENTED_FOLLOW_UP,2026-09-28,True,Outreach suppressed per customer explicit decline.,True
+OUT-0189,CASE-0189,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,CONSENTED_FOLLOW_UP,2026-09-29,True,Outreach suppressed per customer explicit decline.,True
+OUT-0190,CASE-0190,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,CONSENTED_FOLLOW_UP,2026-09-30,True,Outreach suppressed per customer explicit decline.,True
+OUT-0191,CASE-0191,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,CONSENTED_FOLLOW_UP,2026-10-01,True,Outreach suppressed per customer explicit decline.,True
+OUT-0192,CASE-0192,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,CONSENTED_FOLLOW_UP,2026-10-02,True,Outreach suppressed per customer explicit decline.,True
+OUT-0193,CASE-0193,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,CONSENTED_FOLLOW_UP,2026-10-03,True,Outreach suppressed per customer explicit decline.,True
+OUT-0194,CASE-0194,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,CONSENTED_FOLLOW_UP,2026-10-04,True,Outreach suppressed per customer explicit decline.,True
+OUT-0195,CASE-0195,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,CONSENTED_FOLLOW_UP,2026-10-05,True,Outreach suppressed per customer explicit decline.,True
+OUT-0196,CASE-0196,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,CONSENTED_FOLLOW_UP,2026-10-06,True,Outreach suppressed per customer explicit decline.,True
+OUT-0197,CASE-0197,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,CONSENTED_FOLLOW_UP,2026-10-07,True,Outreach suppressed per customer explicit decline.,True
+OUT-0198,CASE-0198,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,CONSENTED_FOLLOW_UP,2026-10-08,True,Outreach suppressed per customer explicit decline.,True
+OUT-0199,CASE-0199,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,CONSENTED_FOLLOW_UP,2026-10-09,True,Outreach suppressed per customer explicit decline.,True
+OUT-0200,CASE-0200,False,False,INOPERATIVE_UNCHANGED,NOT_MEASURED_YET,CONSENTED_FOLLOW_UP,2026-09-20,True,Outreach suppressed per customer explicit decline.,True

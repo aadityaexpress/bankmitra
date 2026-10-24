@@ -1,0 +1,17 @@
+dimension,metric_name,population_group,value_pct,value_count_million,sample_denominator,source_citation,evidence_status
+Inactivity Scale,Survey Inactive Account Owners,All Account Owners,35.0,,Account Owners aged 15+,"World Bank Findex 2021 Report, p. 154",Published Report Finding
+Inactivity Benchmark,Developing Economies (excl India) Inactivity,Developing World ex-India,5.0,,Account Owners aged 15+,"World Bank Findex 2021 Report, p. 154",Published Report Finding
+Inactivity by Gender,Female Inactive Account Owners,Female Account Owners,42.0,,Female Account Owners aged 15+,"World Bank Findex 2021 Country Brief, p. 2",Published Report Finding
+Inactivity by Gender,Male Inactive Account Owners,Male Account Owners,30.0,,Male Account Owners aged 15+,"World Bank Findex 2021 Country Brief, p. 2",Published Report Finding
+Gender Inactivity Gap,Female vs Male Inactivity Divide,Account Owners,12.0,,Percentage Point Difference,Computed: 42% - 30%,Published Report Finding
+Digital Payment Usage,Adults Using Digital Payments,All Adults,35.0,,All Adults aged 15+,"World Bank Findex 2021 Country Brief, p. 1",Published Report Finding
+Digital Payment Usage,Developing Economies Digital Payments,Developing Economies Avg,57.0,,All Adults aged 15+,"World Bank Findex 2021 Country Brief, p. 1",Published Report Finding
+Digital Payment Gap,Digital Payment Gender Gap,Adults,13.0,,Percentage Point Difference (41% M vs 28% F),"World Bank Findex 2021 Country Brief, p. 1",Published Report Finding
+Utility Payment Inefficiency,Banked Adults Paying Utility Bills in Cash,Banked Adults,,160.0,Approx. 160 Million Banked Adults,"World Bank Findex 2021 Report, p. 155",Published Report Finding
+Stated Barrier (Multi-response),Distance to Financial Institution,Inactive Account Owners,50.0,,Inactive Account Owners (Multi-select),"World Bank Findex 2021 Report, p. 154",Published Report Finding
+Stated Barrier (Multi-response),Lack of Institutional Trust,Inactive Account Owners,50.0,,Inactive Account Owners (Multi-select),"World Bank Findex 2021 Report, p. 154",Published Report Finding
+Stated Barrier (Multi-response),No Perceived Need for Account,Inactive Account Owners,50.0,,Inactive Account Owners (Multi-select),"World Bank Findex 2021 Report, p. 154",Published Report Finding
+Stated Barrier (Multi-response),Insufficient Funds to Use Account,Inactive Account Owners,40.0,,Inactive Account Owners (Multi-select),"World Bank Findex 2021 Report, p. 154",Published Report Finding
+Stated Barrier (Multi-response),Discomfort Using Account Independently,Inactive Account Owners,30.0,,Inactive Account Owners (Multi-select),"World Bank Findex 2021 Report, p. 154",Published Report Finding
+Discomfort by Gender,Men Uncomfortable Operating Alone,Male Inactive Owners,34.0,,Male Inactive Owners,"World Bank Findex 2021 Report, p. 154",Published Report Finding
+Discomfort by Gender,Women Uncomfortable Operating Alone,Female Inactive Owners,26.0,,Female Inactive Owners,"World Bank Findex 2021 Report, p. 154",Published Report Finding

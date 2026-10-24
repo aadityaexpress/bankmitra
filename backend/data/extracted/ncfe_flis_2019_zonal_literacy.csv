@@ -1,0 +1,8 @@
+zone,representative_states,fl_overall_pct,sample_size_approx,survey_year,source_table_ref,verification_status
+East Zone,"Bihar, West Bengal, Odisha, Jharkhand",20.0,17200,2019,NCFE NFLIS-2019 Report / NSFE 2020-25 Table 1.2,VERIFIED_VERBATIM
+Central Zone,"Uttar Pradesh, Madhya Pradesh, Chhattisgarh",21.0,15200,2019,NCFE NFLIS-2019 Report / NSFE 2020-25 Table 1.2,VERIFIED_VERBATIM
+South Zone,"Kerala, Tamil Nadu, Karnataka, Andhra Pradesh, Telangana",30.0,14100,2019,NCFE NFLIS-2019 Report / NSFE 2020-25 Table 1.2,VERIFIED_VERBATIM
+North Zone,"Punjab, Haryana, Rajasthan, Himachal Pradesh, Delhi",32.0,11000,2019,NCFE NFLIS-2019 Report / NSFE 2020-25 Table 1.2,VERIFIED_VERBATIM
+North-East Zone,"Assam, Sikkim, Meghalaya, Tripura, etc.",33.0,8500,2019,NCFE NFLIS-2019 Report / NSFE 2020-25 Table 1.2,VERIFIED_VERBATIM
+West Zone,"Maharashtra, Gujarat, Goa",37.0,9000,2019,NCFE NFLIS-2019 Report / NSFE 2020-25 Table 1.2,VERIFIED_VERBATIM
+All-India Benchmark,All 28 States & 8 Union Territories,27.18,75000,2019,NCFE NFLIS-2019 Report / NSFE 2020-25 Table 1.2,VERIFIED_VERBATIM

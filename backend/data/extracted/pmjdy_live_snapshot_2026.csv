@@ -1,0 +1,6 @@
+bank_category,rural_semiurban_beneficiaries_crore,urban_metro_beneficiaries_crore,female_beneficiaries_crore,total_beneficiaries_crore,deposits_in_accounts_inr_crore,rupay_cards_issued_crore,reporting_date,source_url
+Public Sector Banks,35.63,10.21,25.23,45.84,252492.89,35.68,2026-10-14,https://pmjdy.gov.in/account
+Regional Rural Banks,9.47,1.71,6.53,11.18,61311.23,4.18,2026-10-14,https://pmjdy.gov.in/account
+Private Sector Banks,0.98,1.4,1.37,2.38,10265.01,1.93,2026-10-14,https://pmjdy.gov.in/account
+Rural Cooperative Banks,0.19,0.0,0.1,0.19,0.01,0.0,2026-10-14,https://pmjdy.gov.in/account
+Grand Total,46.27,13.32,33.23,59.59,324069.14,41.79,2026-10-14,https://pmjdy.gov.in/account

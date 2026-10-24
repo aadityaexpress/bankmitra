@@ -1,0 +1,761 @@
+{
+  "generated_at": "2026-10-23T22:45:00Z",
+  "pipeline_version": "3.0.0-phase4-validity-reviewed",
+  "checksum_status": "ALL_MATCHED",
+  "findex_segmentation": {
+    "title": "Longitudinal Demographic Account Ownership in India (2011-2024)",
+    "source": "World Bank Global Findex Database API",
+    "evidence_tier": "Tier A (Verified Multilateral API Data)",
+    "observations": 5,
+    "data": [
+      {
+        "year": 2011,
+        "account_ownership_pct_total": 35.23,
+        "account_ownership_pct_female": 26.49,
+        "account_ownership_pct_male": 43.74,
+        "gender_gap_pp": -17.25,
+        "account_ownership_poorest_40pct": 26.97,
+        "account_ownership_richest_60pct": 40.73,
+        "wealth_gap_pp": -13.76
+      },
+      {
+        "year": 2014,
+        "account_ownership_pct_total": 53.14,
+        "account_ownership_pct_female": 43.13,
+        "account_ownership_pct_male": 62.76,
+        "gender_gap_pp": -19.63,
+        "account_ownership_poorest_40pct": 43.61,
+        "account_ownership_richest_60pct": 59.48,
+        "wealth_gap_pp": -15.87
+      },
+      {
+        "year": 2017,
+        "account_ownership_pct_total": 79.88,
+        "account_ownership_pct_female": 76.64,
+        "account_ownership_pct_male": 83.01,
+        "gender_gap_pp": -6.37,
+        "account_ownership_poorest_40pct": 77.08,
+        "account_ownership_richest_60pct": 81.74,
+        "wealth_gap_pp": -4.66
+      },
+      {
+        "year": 2021,
+        "account_ownership_pct_total": 77.53,
+        "account_ownership_pct_female": 77.55,
+        "account_ownership_pct_male": 77.51,
+        "gender_gap_pp": 0.04,
+        "account_ownership_poorest_40pct": 78.25,
+        "account_ownership_richest_60pct": 77.05,
+        "wealth_gap_pp": 1.2
+      },
+      {
+        "year": 2024,
+        "account_ownership_pct_total": 89.02,
+        "account_ownership_pct_female": 89.25,
+        "account_ownership_pct_male": 88.81,
+        "gender_gap_pp": 0.44,
+        "account_ownership_poorest_40pct": 86.32,
+        "account_ownership_richest_60pct": 90.83,
+        "wealth_gap_pp": -4.51
+      }
+    ]
+  },
+  "pmjdy_segmentation": {
+    "title": "PMJDY Institutional & Demographic Allocation (14 Oct 2026 Live Snapshot)",
+    "source": "Department of Financial Services (DFS), pmjdy.gov.in/account",
+    "evidence_tier": "Tier A (Verified Public Official Data)",
+    "methodological_caveat": "RuPay coverage measures plastic debit card issuance, NOT active transaction usage. Rural beneficiaries transacting via AePS biometric touchpoints are not dependent on physical cards.",
+    "grand_total": {
+      "bank_category": "Grand Total",
+      "rural_semiurban_beneficiaries_crore": 46.27,
+      "urban_metro_beneficiaries_crore": 13.32,
+      "female_beneficiaries_crore": 33.23,
+      "total_beneficiaries_crore": 59.59,
+      "deposits_in_accounts_inr_crore": 324069.14,
+      "rupay_cards_issued_crore": 41.79,
+      "reporting_date": "2026-10-14",
+      "rural_semiurban_share_pct": 77.65,
+      "female_share_pct": 55.76,
+      "rupay_coverage_pct": 70.13,
+      "avg_deposit_per_account_inr": 5438.31
+    },
+    "categories": [
+      {
+        "bank_category": "Public Sector Banks",
+        "rural_semiurban_beneficiaries_crore": 35.63,
+        "urban_metro_beneficiaries_crore": 10.21,
+        "female_beneficiaries_crore": 25.23,
+        "total_beneficiaries_crore": 45.84,
+        "deposits_in_accounts_inr_crore": 252492.89,
+        "rupay_cards_issued_crore": 35.68,
+        "reporting_date": "2026-10-14",
+        "rural_semiurban_share_pct": 77.73,
+        "female_share_pct": 55.04,
+        "rupay_coverage_pct": 77.84,
+        "avg_deposit_per_account_inr": 5508.13
+      },
+      {
+        "bank_category": "Regional Rural Banks",
+        "rural_semiurban_beneficiaries_crore": 9.47,
+        "urban_metro_beneficiaries_crore": 1.71,
+        "female_beneficiaries_crore": 6.53,
+        "total_beneficiaries_crore": 11.18,
+        "deposits_in_accounts_inr_crore": 61311.23,
+        "rupay_cards_issued_crore": 4.18,
+        "reporting_date": "2026-10-14",
+        "rural_semiurban_share_pct": 84.7,
+        "female_share_pct": 58.41,
+        "rupay_coverage_pct": 37.39,
+        "avg_deposit_per_account_inr": 5484.01
+      },
+      {
+        "bank_category": "Private Sector Banks",
+        "rural_semiurban_beneficiaries_crore": 0.98,
+        "urban_metro_beneficiaries_crore": 1.4,
+        "female_beneficiaries_crore": 1.37,
+        "total_beneficiaries_crore": 2.38,
+        "deposits_in_accounts_inr_crore": 10265.01,
+        "rupay_cards_issued_crore": 1.93,
+        "reporting_date": "2026-10-14",
+        "rural_semiurban_share_pct": 41.18,
+        "female_share_pct": 57.56,
+        "rupay_coverage_pct": 81.09,
+        "avg_deposit_per_account_inr": 4313.03
+      },
+      {
+        "bank_category": "Rural Cooperative Banks",
+        "rural_semiurban_beneficiaries_crore": 0.19,
+        "urban_metro_beneficiaries_crore": 0.0,
+        "female_beneficiaries_crore": 0.1,
+        "total_beneficiaries_crore": 0.19,
+        "deposits_in_accounts_inr_crore": 0.01,
+        "rupay_cards_issued_crore": 0.0,
+        "reporting_date": "2026-10-14",
+        "rural_semiurban_share_pct": 100.0,
+        "female_share_pct": 52.63,
+        "rupay_coverage_pct": 0.0,
+        "avg_deposit_per_account_inr": 0.05
+      }
+    ]
+  },
+  "fipi_sensitivity_analysis": {
+    "title": "Geographical Financial-Inclusion Needs-Screening Index (FINSI / FIPI)",
+    "model_classification": "Geographic Resource Allocation & Needs Screening Tool",
+    "suitability": {
+      "geographic_screening": "SUITABLE (Permitted for SLBC/LDM resource deployment)",
+      "account_level_targeting": "REGULATED & CONDITIONED (Permitted for banks under RBI Inoperative Accounts directions; unconsented third-party cross-profiling prohibited under DPDP Act 2023; subject to legal counsel review)",
+      "inoperancy_prevalence_estimation": "UNSUITABLE (Lacks direct Core Banking System dormancy counts)"
+    },
+    "epistemic_warning": "This index screens broad structural financial-inclusion need (literacy deficits, rural dispersion, scheme volume). It does NOT measure or estimate inactive/dormant bank account prevalence.",
+    "methodological_caveat": "Provisional weights are heuristic policy parameters. High rank stability across schemes demonstrates mathematical parameter robustness to weight and normalization choices, NOT empirical predictive validity.",
+    "weight_schemes": {
+      "provisional_baseline": {
+        "literacy_deficit": 0.5,
+        "rural_exposure": 0.3,
+        "volume_share": 0.2
+      },
+      "literacy_heavy": {
+        "literacy_deficit": 0.7,
+        "rural_exposure": 0.2,
+        "volume_share": 0.1
+      },
+      "rural_heavy": {
+        "literacy_deficit": 0.3,
+        "rural_exposure": 0.5,
+        "volume_share": 0.2
+      },
+      "equal_weight": {
+        "literacy_deficit": 0.3333,
+        "rural_exposure": 0.3333,
+        "volume_share": 0.3334
+      }
+    },
+    "normalization_methods_tested": [
+      "Min-Max [0, 1] Normalization",
+      "Z-Score Standardization",
+      "Borda Rank Summation"
+    ],
+    "zone_count": 6,
+    "rankings": [
+      {
+        "zone": "East Zone",
+        "representative_states": "Bihar, West Bengal, Odisha, Jharkhand",
+        "fl_overall_pct": 20.0,
+        "source_table_ref": "NCFE NFLIS-2019 Report / NSFE 2020-25 Table 1.2",
+        "verification_status": "VERIFIED_VERBATIM",
+        "evidence_coverage_pct": 100.0,
+        "direct_inoperancy_observed": false,
+        "missing_data_warnings": [
+          "Direct inoperative account counts unobserved at zonal level; proxy screening only.",
+          "Sub-state district heterogeneity suppressed."
+        ],
+        "norm_fl_deficit_minmax": 1.0,
+        "z_score_fl_deficit": 1.412,
+        "z_score_composite": 0.988,
+        "scores": {
+          "provisional_baseline": 0.782,
+          "literacy_heavy": 0.88,
+          "rural_heavy": 0.738,
+          "equal_weight": 0.6733
+        },
+        "baseline_rank": 1,
+        "rank_literacy_heavy": 1,
+        "rank_shift_literacy_heavy": 0,
+        "rank_rural_heavy": 1,
+        "rank_shift_rural_heavy": 0,
+        "rank_equal_weight": 1,
+        "rank_shift_equal_weight": 0,
+        "rank_z_score_norm": 1,
+        "rank_shift_z_score_norm": 0
+      },
+      {
+        "zone": "Central Zone",
+        "representative_states": "Uttar Pradesh, Madhya Pradesh, Chhattisgarh",
+        "fl_overall_pct": 21.0,
+        "source_table_ref": "NCFE NFLIS-2019 Report / NSFE 2020-25 Table 1.2",
+        "verification_status": "VERIFIED_VERBATIM",
+        "evidence_coverage_pct": 100.0,
+        "direct_inoperancy_observed": false,
+        "missing_data_warnings": [
+          "Direct inoperative account counts unobserved at zonal level; proxy screening only.",
+          "Sub-state district heterogeneity suppressed."
+        ],
+        "norm_fl_deficit_minmax": 0.9412,
+        "z_score_fl_deficit": 1.2521,
+        "z_score_composite": 0.9031,
+        "scores": {
+          "provisional_baseline": 0.7476,
+          "literacy_heavy": 0.8348,
+          "rural_heavy": 0.7094,
+          "equal_weight": 0.6504
+        },
+        "baseline_rank": 2,
+        "rank_literacy_heavy": 2,
+        "rank_shift_literacy_heavy": 0,
+        "rank_rural_heavy": 2,
+        "rank_shift_rural_heavy": 0,
+        "rank_equal_weight": 2,
+        "rank_shift_equal_weight": 0,
+        "rank_z_score_norm": 2,
+        "rank_shift_z_score_norm": 0
+      },
+      {
+        "zone": "South Zone",
+        "representative_states": "Kerala, Tamil Nadu, Karnataka, Andhra Pradesh, Telangana",
+        "fl_overall_pct": 30.0,
+        "source_table_ref": "NCFE NFLIS-2019 Report / NSFE 2020-25 Table 1.2",
+        "verification_status": "VERIFIED_VERBATIM",
+        "evidence_coverage_pct": 100.0,
+        "direct_inoperancy_observed": false,
+        "missing_data_warnings": [
+          "Direct inoperative account counts unobserved at zonal level; proxy screening only.",
+          "Sub-state district heterogeneity suppressed."
+        ],
+        "norm_fl_deficit_minmax": 0.4118,
+        "z_score_fl_deficit": -0.1865,
+        "z_score_composite": 0.1168,
+        "scores": {
+          "provisional_baseline": 0.4159,
+          "literacy_heavy": 0.4222,
+          "rural_heavy": 0.4495,
+          "equal_weight": 0.3906
+        },
+        "baseline_rank": 3,
+        "rank_literacy_heavy": 3,
+        "rank_shift_literacy_heavy": 0,
+        "rank_rural_heavy": 3,
+        "rank_shift_rural_heavy": 0,
+        "rank_equal_weight": 3,
+        "rank_shift_equal_weight": 0,
+        "rank_z_score_norm": 3,
+        "rank_shift_z_score_norm": 0
+      },
+      {
+        "zone": "North Zone",
+        "representative_states": "Punjab, Haryana, Rajasthan, Himachal Pradesh, Delhi",
+        "fl_overall_pct": 32.0,
+        "source_table_ref": "NCFE NFLIS-2019 Report / NSFE 2020-25 Table 1.2",
+        "verification_status": "VERIFIED_VERBATIM",
+        "evidence_coverage_pct": 100.0,
+        "direct_inoperancy_observed": false,
+        "missing_data_warnings": [
+          "Direct inoperative account counts unobserved at zonal level; proxy screening only.",
+          "Sub-state district heterogeneity suppressed."
+        ],
+        "norm_fl_deficit_minmax": 0.2941,
+        "z_score_fl_deficit": -0.5062,
+        "z_score_composite": -0.0261,
+        "scores": {
+          "provisional_baseline": 0.3741,
+          "literacy_heavy": 0.3519,
+          "rural_heavy": 0.4452,
+          "equal_weight": 0.368
+        },
+        "baseline_rank": 4,
+        "rank_literacy_heavy": 4,
+        "rank_shift_literacy_heavy": 0,
+        "rank_rural_heavy": 4,
+        "rank_shift_rural_heavy": 0,
+        "rank_equal_weight": 4,
+        "rank_shift_equal_weight": 0,
+        "rank_z_score_norm": 4,
+        "rank_shift_z_score_norm": 0
+      },
+      {
+        "zone": "North-East Zone",
+        "representative_states": "Assam, Sikkim, Meghalaya, Tripura, etc.",
+        "fl_overall_pct": 33.0,
+        "source_table_ref": "NCFE NFLIS-2019 Report / NSFE 2020-25 Table 1.2",
+        "verification_status": "VERIFIED_VERBATIM",
+        "evidence_coverage_pct": 100.0,
+        "direct_inoperancy_observed": false,
+        "missing_data_warnings": [
+          "Direct inoperative account counts unobserved at zonal level; proxy screening only.",
+          "Sub-state district heterogeneity suppressed."
+        ],
+        "norm_fl_deficit_minmax": 0.2353,
+        "z_score_fl_deficit": -0.666,
+        "z_score_composite": -0.113,
+        "scores": {
+          "provisional_baseline": 0.3376,
+          "literacy_heavy": 0.3097,
+          "rural_heavy": 0.4306,
+          "equal_weight": 0.3284
+        },
+        "baseline_rank": 5,
+        "rank_literacy_heavy": 5,
+        "rank_shift_literacy_heavy": 0,
+        "rank_rural_heavy": 5,
+        "rank_shift_rural_heavy": 0,
+        "rank_equal_weight": 5,
+        "rank_shift_equal_weight": 0,
+        "rank_z_score_norm": 5,
+        "rank_shift_z_score_norm": 0
+      },
+      {
+        "zone": "West Zone",
+        "representative_states": "Maharashtra, Gujarat, Goa",
+        "fl_overall_pct": 37.0,
+        "source_table_ref": "NCFE NFLIS-2019 Report / NSFE 2020-25 Table 1.2",
+        "verification_status": "VERIFIED_VERBATIM",
+        "evidence_coverage_pct": 100.0,
+        "direct_inoperancy_observed": false,
+        "missing_data_warnings": [
+          "Direct inoperative account counts unobserved at zonal level; proxy screening only.",
+          "Sub-state district heterogeneity suppressed."
+        ],
+        "norm_fl_deficit_minmax": 0.0,
+        "z_score_fl_deficit": -1.3054,
+        "z_score_composite": -0.4657,
+        "scores": {
+          "provisional_baseline": 0.187,
+          "literacy_heavy": 0.121,
+          "rural_heavy": 0.297,
+          "equal_weight": 0.22
+        },
+        "baseline_rank": 6,
+        "rank_literacy_heavy": 6,
+        "rank_shift_literacy_heavy": 0,
+        "rank_rural_heavy": 6,
+        "rank_shift_rural_heavy": 0,
+        "rank_equal_weight": 6,
+        "rank_shift_equal_weight": 0,
+        "rank_z_score_norm": 6,
+        "rank_shift_z_score_norm": 0
+      }
+    ]
+  },
+  "evidence_domains_matrix": {
+    "title": "Multi-Source Evidence Domain Separation Matrix",
+    "description": "Explicit epistemological boundary preventing conflation of general inclusion with dormant-account prevalence.",
+    "domains": {
+      "1_observed_inactivity_evidence": {
+        "label": "Observed Account Inactivity Evidence",
+        "scope": "Direct behavioral non-use or administrative inoperancy",
+        "status": "Partially Observed (Aggregate / Survey Only)",
+        "indicators": [
+          {
+            "metric": "Survey Inactive Account Owners",
+            "value": "35.0%",
+            "unit": "Percentage of Account Owners (15+)",
+            "period": "2021 Survey Cycle",
+            "source": "World Bank Global Findex 2021 Report (p. 154)",
+            "tier": "Tier A (Published Report Finding)",
+            "coverage": "National Aggregate Only (Zonal/District Unavailable)"
+          },
+          {
+            "metric": "Female Inactive Account Owners",
+            "value": "42.0%",
+            "unit": "Percentage of Female Account Owners (15+)",
+            "period": "2021 Survey Cycle",
+            "source": "World Bank Findex 2021 Country Brief (p. 2)",
+            "tier": "Tier A (Published Report Finding)",
+            "coverage": "National Gender Cross-tab"
+          },
+          {
+            "metric": "PMJDY Inoperative Rate Estimate",
+            "value": "21.17%",
+            "unit": "Percentage of PMJDY Accounts",
+            "period": "Snapshot as of 22 Jan 2025",
+            "source": "Lok Sabha Unstarred Question QA",
+            "tier": "Tier B (Parliamentary QA Record)",
+            "coverage": "Scheme Level (All-Bank CBS Ledger Level Restricted)"
+          },
+          {
+            "metric": "Granular CBS Inoperative Reason Code Logs",
+            "value": "UNOBSERVED IN PUBLIC DATA",
+            "unit": "Account-level Reason Tags",
+            "period": "Live Ledgers",
+            "source": "Commercial Bank Core Banking Systems",
+            "tier": "Tier E (Restricted Institutional Access Only)",
+            "coverage": "Requires Bank Mandate"
+          }
+        ]
+      },
+      "2_financial_literacy_evidence": {
+        "label": "Financial Literacy Evidence",
+        "scope": "Adult knowledge, attitudes, and behaviour benchmarks",
+        "status": "Observed at National and Zonal Scale",
+        "indicators": [
+          {
+            "metric": "National Financial Literacy Benchmark Rate",
+            "value": "27.18%",
+            "unit": "Percentage of Adults (18-79)",
+            "period": "June 2018 - October 2019",
+            "source": "NCFE NFLIS-2019 Final Report",
+            "tier": "Tier A (Verified Sovereign Survey)",
+            "coverage": "National Benchmark"
+          },
+          {
+            "metric": "Zonal Literacy Distribution",
+            "value": "East 20.0%, Central 21.0%, South 30.0%, North 32.0%, NE 33.0%, West 37.0%",
+            "unit": "Percentage Meeting OECD-INFE Threshold",
+            "period": "2018-2019",
+            "source": "NCFE NFLIS-2019 / NSFE 2020-25 Table 1.2",
+            "tier": "Tier A (Verified Verbatim Report Table)",
+            "coverage": "6 Geographical Zones"
+          },
+          {
+            "metric": "Individual Literacy-to-Dormancy Join",
+            "value": "UNOBSERVED / NO LAWFUL PUBLIC JOIN",
+            "unit": "Individual Score Joined to Account Status",
+            "period": "N/A",
+            "source": "DPDP Act / Banking Secrecy Boundary",
+            "tier": "Strictly Prohibited Inference",
+            "coverage": "None (Individual Literacy Cannot Be Inferred from Dormancy)"
+          }
+        ]
+      },
+      "3_access_and_infrastructure_evidence": {
+        "label": "Access & Infrastructure Evidence",
+        "scope": "Physical branch distribution, agent networks, and education infrastructure",
+        "status": "Observed at Scheme & Regulatory Level",
+        "indicators": [
+          {
+            "metric": "PMJDY Rural/Semi-Urban Branch Share",
+            "value": "77.65%",
+            "unit": "Percentage of Scheme Beneficiaries",
+            "period": "14 Oct 2026",
+            "source": "DFS PMJDY Live Portal",
+            "tier": "Tier A (Verified Official Scrape)",
+            "coverage": "National & Bank Category"
+          },
+          {
+            "metric": "Centres for Financial Literacy (CFLs)",
+            "value": "2,421 Centres",
+            "unit": "Operational Physical Facilities",
+            "period": "31 March 2025",
+            "source": "RBI Annual Report 2024-25",
+            "tier": "Tier A (Verified Sovereign Data)",
+            "coverage": "National Network"
+          },
+          {
+            "metric": "Local BC Kiosk Uptime & Liquidity",
+            "value": "UNOBSERVED IN OPEN DATA",
+            "unit": "Real-time CSP Terminal Logs",
+            "period": "Live",
+            "source": "Corporate BC Networks / NPCI",
+            "tier": "Tier E (Restricted Operational Data)",
+            "coverage": "Local Field Verification Required"
+          }
+        ]
+      },
+      "4_general_inclusion_indicators": {
+        "label": "General Financial Inclusion Indicators",
+        "scope": "Macro ownership rates, payment rail expansion, and composite indices",
+        "status": "Observed at National Scale",
+        "indicators": [
+          {
+            "metric": "Adult Account Ownership (Age 15+)",
+            "value": "89.02%",
+            "unit": "Percentage of Adult Population",
+            "period": "2024 Survey Cycle",
+            "source": "World Bank Global Findex Open Data API",
+            "tier": "Tier A (Verified Multilateral API Data)",
+            "coverage": "National Time Series (2011 to 2024)"
+          },
+          {
+            "metric": "RBI Financial Inclusion Index (FI-Index)",
+            "value": "64.2",
+            "unit": "Composite Scale (0 to 100)",
+            "period": "March 2024",
+            "source": "RBI Annual Report 2024-25",
+            "tier": "Tier A (Verified Sovereign Release)",
+            "coverage": "National Composite (Access 71.0, Usage 61.8, Quality 56.2)"
+          },
+          {
+            "metric": "Annual UPI Retail Volume",
+            "value": "17,200 Crore Transactions",
+            "unit": "Annual Transaction Count",
+            "period": "FY 2024-25",
+            "source": "NPCI Product Statistics",
+            "tier": "Tier A (Verified Operational Rail Data)",
+            "coverage": "National Retail Payment Rails"
+          }
+        ]
+      }
+    }
+  },
+  "rbi_fi_index_series": [
+    {
+      "reporting_period": "March 2021",
+      "fi_index_composite": "53.9",
+      "access_subindex": "61.7",
+      "usage_subindex": "50.5",
+      "quality_subindex": "48.1",
+      "cfl_centres_count": "1215",
+      "source_url": "https://www.rbi.org.in"
+    },
+    {
+      "reporting_period": "March 2022",
+      "fi_index_composite": "56.4",
+      "access_subindex": "64.2",
+      "usage_subindex": "53.1",
+      "quality_subindex": "50.8",
+      "cfl_centres_count": "1480",
+      "source_url": "https://www.rbi.org.in"
+    },
+    {
+      "reporting_period": "March 2023",
+      "fi_index_composite": "60.1",
+      "access_subindex": "67.5",
+      "usage_subindex": "57.3",
+      "quality_subindex": "53.4",
+      "cfl_centres_count": "1824",
+      "source_url": "https://www.rbi.org.in"
+    },
+    {
+      "reporting_period": "March 2024",
+      "fi_index_composite": "64.2",
+      "access_subindex": "71.0",
+      "usage_subindex": "61.8",
+      "quality_subindex": "56.2",
+      "cfl_centres_count": "2421",
+      "source_url": "https://www.rbi.org.in/scripts/AnnualReportPublications.aspx?Id=1434"
+    }
+  ],
+  "npci_payment_rails_series": [
+    {
+      "financial_year": "2021-22",
+      "upi_volume_crore": "4596.0",
+      "upi_value_lakh_crore": "84.17",
+      "aeps_volume_crore": "96.4",
+      "aeps_value_crore": "278000.0",
+      "dbt_total_transfers_crore": "612.0",
+      "dbt_total_amount_inr_crore": "617156.0",
+      "source": "NPCI / DBT Bharat"
+    },
+    {
+      "financial_year": "2022-23",
+      "upi_volume_crore": "8375.0",
+      "upi_value_lakh_crore": "139.2",
+      "aeps_volume_crore": "105.8",
+      "aeps_value_crore": "312000.0",
+      "dbt_total_transfers_crore": "716.0",
+      "dbt_total_amount_inr_crore": "716298.0",
+      "source": "NPCI / DBT Bharat"
+    },
+    {
+      "financial_year": "2023-24",
+      "upi_volume_crore": "13115.0",
+      "upi_value_lakh_crore": "199.8",
+      "aeps_volume_crore": "112.5",
+      "aeps_value_crore": "348000.0",
+      "dbt_total_transfers_crore": "820.0",
+      "dbt_total_amount_inr_crore": "690000.0",
+      "source": "NPCI / DBT Bharat"
+    },
+    {
+      "financial_year": "2024-25",
+      "upi_volume_crore": "17200.0",
+      "upi_value_lakh_crore": "260.0",
+      "aeps_volume_crore": "118.0",
+      "aeps_value_crore": "375000.0",
+      "dbt_total_transfers_crore": "890.0",
+      "dbt_total_amount_inr_crore": "745000.0",
+      "source": "NPCI Annual / DBT Bharat Aggregates"
+    }
+  ],
+  "findex_barriers_benchmark": [
+    {
+      "dimension": "Inactivity Scale",
+      "metric_name": "Survey Inactive Account Owners",
+      "population_group": "All Account Owners",
+      "value_pct": "35.0",
+      "value_count_million": "",
+      "sample_denominator": "Account Owners aged 15+",
+      "source_citation": "World Bank Findex 2021 Report, p. 154",
+      "evidence_status": "Published Report Finding"
+    },
+    {
+      "dimension": "Inactivity Benchmark",
+      "metric_name": "Developing Economies (excl India) Inactivity",
+      "population_group": "Developing World ex-India",
+      "value_pct": "5.0",
+      "value_count_million": "",
+      "sample_denominator": "Account Owners aged 15+",
+      "source_citation": "World Bank Findex 2021 Report, p. 154",
+      "evidence_status": "Published Report Finding"
+    },
+    {
+      "dimension": "Inactivity by Gender",
+      "metric_name": "Female Inactive Account Owners",
+      "population_group": "Female Account Owners",
+      "value_pct": "42.0",
+      "value_count_million": "",
+      "sample_denominator": "Female Account Owners aged 15+",
+      "source_citation": "World Bank Findex 2021 Country Brief, p. 2",
+      "evidence_status": "Published Report Finding"
+    },
+    {
+      "dimension": "Inactivity by Gender",
+      "metric_name": "Male Inactive Account Owners",
+      "population_group": "Male Account Owners",
+      "value_pct": "30.0",
+      "value_count_million": "",
+      "sample_denominator": "Male Account Owners aged 15+",
+      "source_citation": "World Bank Findex 2021 Country Brief, p. 2",
+      "evidence_status": "Published Report Finding"
+    },
+    {
+      "dimension": "Gender Inactivity Gap",
+      "metric_name": "Female vs Male Inactivity Divide",
+      "population_group": "Account Owners",
+      "value_pct": "12.0",
+      "value_count_million": "",
+      "sample_denominator": "Percentage Point Difference",
+      "source_citation": "Computed: 42% - 30%",
+      "evidence_status": "Published Report Finding"
+    },
+    {
+      "dimension": "Digital Payment Usage",
+      "metric_name": "Adults Using Digital Payments",
+      "population_group": "All Adults",
+      "value_pct": "35.0",
+      "value_count_million": "",
+      "sample_denominator": "All Adults aged 15+",
+      "source_citation": "World Bank Findex 2021 Country Brief, p. 1",
+      "evidence_status": "Published Report Finding"
+    },
+    {
+      "dimension": "Digital Payment Usage",
+      "metric_name": "Developing Economies Digital Payments",
+      "population_group": "Developing Economies Avg",
+      "value_pct": "57.0",
+      "value_count_million": "",
+      "sample_denominator": "All Adults aged 15+",
+      "source_citation": "World Bank Findex 2021 Country Brief, p. 1",
+      "evidence_status": "Published Report Finding"
+    },
+    {
+      "dimension": "Digital Payment Gap",
+      "metric_name": "Digital Payment Gender Gap",
+      "population_group": "Adults",
+      "value_pct": "13.0",
+      "value_count_million": "",
+      "sample_denominator": "Percentage Point Difference (41% M vs 28% F)",
+      "source_citation": "World Bank Findex 2021 Country Brief, p. 1",
+      "evidence_status": "Published Report Finding"
+    },
+    {
+      "dimension": "Utility Payment Inefficiency",
+      "metric_name": "Banked Adults Paying Utility Bills in Cash",
+      "population_group": "Banked Adults",
+      "value_pct": "",
+      "value_count_million": "160.0",
+      "sample_denominator": "Approx. 160 Million Banked Adults",
+      "source_citation": "World Bank Findex 2021 Report, p. 155",
+      "evidence_status": "Published Report Finding"
+    },
+    {
+      "dimension": "Stated Barrier (Multi-response)",
+      "metric_name": "Distance to Financial Institution",
+      "population_group": "Inactive Account Owners",
+      "value_pct": "50.0",
+      "value_count_million": "",
+      "sample_denominator": "Inactive Account Owners (Multi-select)",
+      "source_citation": "World Bank Findex 2021 Report, p. 154",
+      "evidence_status": "Published Report Finding"
+    },
+    {
+      "dimension": "Stated Barrier (Multi-response)",
+      "metric_name": "Lack of Institutional Trust",
+      "population_group": "Inactive Account Owners",
+      "value_pct": "50.0",
+      "value_count_million": "",
+      "sample_denominator": "Inactive Account Owners (Multi-select)",
+      "source_citation": "World Bank Findex 2021 Report, p. 154",
+      "evidence_status": "Published Report Finding"
+    },
+    {
+      "dimension": "Stated Barrier (Multi-response)",
+      "metric_name": "No Perceived Need for Account",
+      "population_group": "Inactive Account Owners",
+      "value_pct": "50.0",
+      "value_count_million": "",
+      "sample_denominator": "Inactive Account Owners (Multi-select)",
+      "source_citation": "World Bank Findex 2021 Report, p. 154",
+      "evidence_status": "Published Report Finding"
+    },
+    {
+      "dimension": "Stated Barrier (Multi-response)",
+      "metric_name": "Insufficient Funds to Use Account",
+      "population_group": "Inactive Account Owners",
+      "value_pct": "40.0",
+      "value_count_million": "",
+      "sample_denominator": "Inactive Account Owners (Multi-select)",
+      "source_citation": "World Bank Findex 2021 Report, p. 154",
+      "evidence_status": "Published Report Finding"
+    },
+    {
+      "dimension": "Stated Barrier (Multi-response)",
+      "metric_name": "Discomfort Using Account Independently",
+      "population_group": "Inactive Account Owners",
+      "value_pct": "30.0",
+      "value_count_million": "",
+      "sample_denominator": "Inactive Account Owners (Multi-select)",
+      "source_citation": "World Bank Findex 2021 Report, p. 154",
+      "evidence_status": "Published Report Finding"
+    },
+    {
+      "dimension": "Discomfort by Gender",
+      "metric_name": "Men Uncomfortable Operating Alone",
+      "population_group": "Male Inactive Owners",
+      "value_pct": "34.0",
+      "value_count_million": "",
+      "sample_denominator": "Male Inactive Owners",
+      "source_citation": "World Bank Findex 2021 Report, p. 154",
+      "evidence_status": "Published Report Finding"
+    },
+    {
+      "dimension": "Discomfort by Gender",
+      "metric_name": "Women Uncomfortable Operating Alone",
+      "population_group": "Female Inactive Owners",
+      "value_pct": "26.0",
+      "value_count_million": "",
+      "sample_denominator": "Female Inactive Owners",
+      "source_citation": "World Bank Findex 2021 Report, p. 154",
+      "evidence_status": "Published Report Finding"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+financial_year,upi_volume_crore,upi_value_lakh_crore,aeps_volume_crore,aeps_value_crore,dbt_total_transfers_crore,dbt_total_amount_inr_crore,source
+2021-22,4596.0,84.17,96.4,278000.0,612.0,617156.0,NPCI / DBT Bharat
+2022-23,8375.0,139.2,105.8,312000.0,716.0,716298.0,NPCI / DBT Bharat
+2023-24,13115.0,199.8,112.5,348000.0,820.0,690000.0,NPCI / DBT Bharat
+2024-25,17200.0,260.0,118.0,375000.0,890.0,745000.0,NPCI Annual / DBT Bharat Aggregates

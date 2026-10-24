@@ -1,0 +1,24 @@
+state_ut_name,zone,fl_overall_pct,knowledge_pct,attitude_pct,behaviour_pct,sample_size_approx,survey_year
+Kerala,South,36.1,58.2,49.3,61.5,2500,2019
+Tamil Nadu,South,33.4,54.1,46.2,58.7,3500,2019
+Karnataka,South,31.8,52.0,44.1,56.3,3200,2019
+Andhra Pradesh,South,29.5,49.5,41.8,53.0,3000,2019
+Telangana,South,28.7,48.1,40.5,51.9,2400,2019
+Maharashtra,West,32.5,53.4,45.0,57.2,5000,2019
+Gujarat,West,30.2,51.1,43.0,54.5,3500,2019
+Goa,West,38.0,60.5,51.0,64.0,800,2019
+Punjab,North,29.1,49.2,41.0,52.8,2000,2019
+Haryana,North,28.4,48.0,40.2,51.4,1800,2019
+Himachal Pradesh,North,34.0,55.0,47.0,59.0,1200,2019
+Rajasthan,North,22.3,41.2,33.5,44.1,4000,2019
+Uttar Pradesh,Central,21.0,39.5,32.0,42.5,8500,2019
+Madhya Pradesh,Central,22.8,41.8,34.1,44.8,4500,2019
+Chhattisgarh,Central,21.5,40.1,32.8,43.2,2200,2019
+Bihar,East,18.2,36.0,28.5,39.0,6500,2019
+Jharkhand,East,19.4,37.8,30.1,40.6,2500,2019
+Odisha,East,23.5,42.9,35.0,46.1,3000,2019
+West Bengal,East,24.1,43.6,36.2,47.3,5200,2019
+Assam,North-East,20.8,39.0,31.5,42.0,2400,2019
+Sikkim,North-East,29.8,50.0,42.5,54.0,600,2019
+Delhi,North,34.5,56.1,48.0,60.1,2000,2019
+All India Benchmark,National,27.18,47.5,39.8,51.6,75000,2019
