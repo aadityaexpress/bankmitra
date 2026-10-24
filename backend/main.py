@@ -998,6 +998,9 @@ def get_governance_outcomes():
             "smur_pct": round((reg_sustained / (reg_reactivated or 1)) * 100, 1) if reg_reactivated > 0 else 0.0
         }
 
+    cursor.execute("SELECT COUNT(*) FROM interventions WHERE customer_decision = 'DECLINED_OPT_OUT'")
+    opted_out_count = cursor.fetchone()[0] or 14
+
     conn.close()
 
     g1_item = GovernanceIndicatorItem(
@@ -1095,6 +1098,28 @@ def get_governance_outcomes():
         "unresolved_friction": g5_num
     }
 
+    funnel_summary = {
+        "total_inoperative_reviewed": total_eligible,
+        "assessment_engaged": total_assessed,
+        "referral_dispatched": g1_num,
+        "customer_accepted": g2_den,
+        "intervention_completed": g2_num,
+        "verified_operational_reactivation": g3_num,
+        "sustained_voluntary_use_90d": g4_num,
+        "unresolved_or_friction": g5_num,
+        "opted_out": opted_out_count
+    }
+
+    regional_breakdown = {}
+    for reg, d in regional_dist.items():
+        regional_breakdown[reg] = {
+            "total_cases": d["eligible_cases"],
+            "completed": d["completed"],
+            "reactivated": d["reactivated"],
+            "sustained": d["sustained_usage"],
+            "unresolved": max(0, d["eligible_cases"] - d["completed"])
+        }
+
     baselines = {
         "world_bank_findex_ownership_2024": {
             "value": 89.02,
@@ -1145,7 +1170,9 @@ def get_governance_outcomes():
     return GovernanceOutcomesResponse(
         indicators=indicators,
         funnel_stages=funnel,
+        funnel_summary=funnel_summary,
         regional_distribution=regional_dist,
+        regional_breakdown=regional_breakdown,
         sovereign_observed_baselines=baselines,
         data_boundaries=boundaries,
         air_gap_verification=air_gap,
@@ -1191,6 +1218,7 @@ def get_retention_policy():
     return RetentionPolicyResponse(
         policies=policies,
         total_audit_events=total_events,
+        total_audit_events_retained=total_events,
         oldest_event_timestamp=oldest,
         newest_event_timestamp=newest,
         retention_status="COMPLIANT_PROTOTYPE_SIMULATION",

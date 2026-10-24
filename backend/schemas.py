@@ -288,7 +288,9 @@ class GovernanceIndicatorItem(BaseModel):
 class GovernanceOutcomesResponse(BaseModel):
     indicators: Dict[str, GovernanceIndicatorItem]
     funnel_stages: Dict[str, int]
+    funnel_summary: Optional[Dict[str, int]] = None
     regional_distribution: Dict[str, Dict[str, Any]]
+    regional_breakdown: Optional[Dict[str, Dict[str, Any]]] = None
     sovereign_observed_baselines: Dict[str, Any]
     data_boundaries: Dict[str, Any]
     air_gap_verification: Optional[Dict[str, Any]] = None
@@ -298,6 +300,7 @@ class GovernanceOutcomesResponse(BaseModel):
 class RetentionPolicyResponse(BaseModel):
     policies: List[Dict[str, Any]]
     total_audit_events: int
+    total_audit_events_retained: Optional[int] = None
     oldest_event_timestamp: Optional[str]
     newest_event_timestamp: Optional[str]
     retention_status: str

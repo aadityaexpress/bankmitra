@@ -186,26 +186,24 @@ export interface GovernanceIndicatorItem {
   code: string;
   name: string;
   value_pct: number;
+  rate_pct?: number;
   numerator: number;
   numerator_label: string;
   denominator: number;
   denominator_label: string;
   formula: string;
-  observation_window: string;
-  data_tier: string;
+  time_window?: string;
+  observation_window?: string;
+  data_tier?: string;
   source_requirement: string;
-  policy_significance: string;
+  statutory_authority?: string;
+  policy_significance?: string;
 }
 
 export interface GovernanceOutcomesResponse {
-  indicators: {
-    G1_referral_dispatch_rate: GovernanceIndicatorItem;
-    G2_intervention_completion_rate: GovernanceIndicatorItem;
-    G3_verified_reactivation_rate: GovernanceIndicatorItem;
-    G4_sustained_meaningful_use_rate: GovernanceIndicatorItem;
-    G5_unresolved_barriers_rate: GovernanceIndicatorItem;
-  };
-  funnel_summary: {
+  indicators: Record<string, GovernanceIndicatorItem>;
+  funnel_stages?: Record<string, number>;
+  funnel_summary?: {
     total_inoperative_reviewed: number;
     assessment_engaged: number;
     referral_dispatched: number;
@@ -216,27 +214,44 @@ export interface GovernanceOutcomesResponse {
     unresolved_or_friction: number;
     opted_out: number;
   };
-  regional_breakdown: Record<string, {
+  regional_distribution?: Record<string, any>;
+  regional_breakdown?: Record<string, {
     total_cases: number;
     completed: number;
     reactivated: number;
     sustained: number;
     unresolved: number;
   }>;
-  air_gap_verification: {
+  sovereign_observed_baselines?: Record<string, any>;
+  data_boundaries?: Record<string, any>;
+  air_gap_verification?: {
     data_tier: string;
     is_synthetic_demonstration: boolean;
     observed_statistics_separation_confirmed: boolean;
   };
+  sample_size?: number;
+  is_synthetic_demonstration?: boolean;
 }
 
 export interface RetentionPolicyResponse {
-  legal_framework: string;
-  retention_schedules: Record<string, string>;
-  pmla_audit_trail_retention_years: number;
-  dpdp_erasure_policy: string;
-  total_audit_events_retained: number;
-  demonstration_note: string;
+  policies?: Array<{
+    regulation: string;
+    scope: string;
+    mandated_retention_period: string;
+    compliance_status: string;
+    details: string;
+  }>;
+  legal_framework?: string;
+  retention_schedules?: Record<string, string>;
+  pmla_audit_trail_retention_years?: number;
+  dpdp_erasure_policy?: string;
+  total_audit_events?: number;
+  total_audit_events_retained?: number;
+  oldest_event_timestamp?: string;
+  newest_event_timestamp?: string;
+  retention_status?: string;
+  demonstration_note?: string;
+  is_synthetic?: boolean;
 }
 
 export interface WorkflowTransitionRequest {
