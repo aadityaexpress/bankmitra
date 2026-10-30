@@ -15,6 +15,7 @@ export function App() {
   const [activeRole, setActiveRole] = useState('BRANCH_OFFICER');
   const [metrics, setMetrics] = useState<DashboardMetrics | null>(null);
   const [metricsLoading, setMetricsLoading] = useState(true);
+  const [metricsError, setMetricsError] = useState<string | null>(null);
   const [reviewCount, setReviewCount] = useState(0);
   const [reseedLoading, setReseedLoading] = useState(false);
   const [selectedBarrierFilter, setSelectedBarrierFilter] = useState('ALL');
@@ -25,6 +26,7 @@ export function App() {
 
   const loadAllData = async () => {
     setMetricsLoading(true);
+    setMetricsError(null);
     try {
       const [m, rq] = await Promise.all([
         fetchMetrics(),
@@ -32,8 +34,9 @@ export function App() {
       ]);
       setMetrics(m);
       setReviewCount(rq.count);
-    } catch (err) {
+    } catch (err: any) {
       console.error('Failed to load initial data:', err);
+      setMetricsError(err?.message || 'Unable to load platform intelligence metrics.');
     } finally {
       setMetricsLoading(false);
     }
@@ -160,6 +163,8 @@ export function App() {
             <OperationsDashboard
               metrics={metrics}
               loading={metricsLoading}
+              error={metricsError}
+              onRetry={loadAllData}
               onNavigateToModule={handleNavigateFromOverview}
               onFilterBarrier={handleFilterBarrier}
             />

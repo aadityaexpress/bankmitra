@@ -103,7 +103,10 @@ def generate_synthetic_dataset(count: int = 200, seed: int = 42) -> Dict[str, Li
     Generates 200 deterministic, reproducible synthetic cases with varied conditions.
     """
     random.seed(seed)
-    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    try:
+        DATA_DIR.mkdir(parents=True, exist_ok=True)
+    except OSError:
+        pass
 
     cases = []
     assessments = []
@@ -478,12 +481,23 @@ def generate_synthetic_dataset(count: int = 200, seed: int = 42) -> Dict[str, Li
     }
 
 def export_dataset_to_csv(dataset: Dict[str, List[Dict[str, Any]]], target_dir: Path = DATA_DIR) -> None:
-    """Exports all datasets into individual CSV files."""
-    target_dir.mkdir(parents=True, exist_ok=True)
+    """Exports all datasets into individual CSV files (falls back to temp dir on read-only serverless FS)."""
+    import tempfile
+    out_dir = target_dir
+    try:
+        out_dir.mkdir(parents=True, exist_ok=True)
+        probe = out_dir / ".write_probe"
+        with open(probe, "w", encoding="utf-8") as pf:
+            pf.write("ok")
+        probe.unlink(missing_ok=True)
+    except OSError:
+        out_dir = Path(tempfile.gettempdir()) / "bankmitra_data"
+        out_dir.mkdir(parents=True, exist_ok=True)
+
     for table_name, records in dataset.items():
         if not records:
             continue
-        file_path = target_dir / f"{table_name}.csv"
+        file_path = out_dir / f"{table_name}.csv"
         fieldnames = list(records[0].keys())
         with open(file_path, mode="w", newline="", encoding="utf-8") as f:
             writer = csv.DictWriter(f, fieldnames=fieldnames)

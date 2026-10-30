@@ -23,6 +23,7 @@ import { fetchMacroEvidence } from '../api';
 export const MacroEvidenceView: React.FC = () => {
   const [data, setData] = useState<any>(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
   const [selectedScheme, setSelectedScheme] = useState<string>('provisional_baseline');
   const [activeTab, setActiveTab] = useState<'prioritisation' | 'domains' | 'sensitivity'>('prioritisation');
   const [selectedZoneDetail, setSelectedZoneDetail] = useState<any | null>(null);
@@ -33,21 +34,39 @@ export const MacroEvidenceView: React.FC = () => {
 
   const loadEvidence = async () => {
     setLoading(true);
+    setError(null);
     try {
       const res = await fetchMacroEvidence();
       setData(res);
-    } catch (err) {
+    } catch (err: any) {
       console.error('Failed to load macro evidence:', err);
+      setError(err?.message || 'Unable to load macro evidence datasets.');
     } finally {
       setLoading(false);
     }
   };
 
-  if (loading || !data) {
+  if (loading) {
     return (
       <div className="py-20 text-center">
         <div className="w-10 h-10 border-4 border-emerald-600 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
         <p className="text-sm text-slate-500 font-medium">Loading verified macro datasets and calculating FIPI...</p>
+      </div>
+    );
+  }
+
+  if (error || !data) {
+    return (
+      <div className="bg-white border border-rose-200 rounded-xl p-8 text-center space-y-4 max-w-lg mx-auto my-12 shadow-xs">
+        <AlertCircle className="w-10 h-10 text-rose-500 mx-auto" />
+        <h3 className="text-base font-bold text-slate-900">Unable to Load Regional Intelligence</h3>
+        <p className="text-xs text-slate-500">{error || 'Macro evidence datasets are currently unavailable.'}</p>
+        <button
+          onClick={loadEvidence}
+          className="inline-flex items-center gap-1.5 px-4 py-2 text-xs font-semibold text-white bg-slate-900 hover:bg-slate-800 rounded-md transition-colors"
+        >
+          Retry Loading Evidence
+        </button>
       </div>
     );
   }

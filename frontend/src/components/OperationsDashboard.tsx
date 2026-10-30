@@ -21,6 +21,8 @@ import { DashboardMetrics } from '../types';
 interface OperationsDashboardProps {
   metrics: DashboardMetrics | null;
   loading: boolean;
+  error?: string | null;
+  onRetry?: () => void;
   onNavigateToModule: (module: 'regional-intelligence' | 'interventions' | 'outcomes' | 'methodology') => void;
   onFilterBarrier?: (barrier: string) => void;
 }
@@ -28,14 +30,36 @@ interface OperationsDashboardProps {
 export const OperationsDashboard: React.FC<OperationsDashboardProps> = ({
   metrics,
   loading,
+  error,
+  onRetry,
   onNavigateToModule,
   onFilterBarrier
 }) => {
-  if (loading || !metrics) {
+  if (loading) {
     return (
       <div className="py-24 text-center">
         <div className="w-8 h-8 border-2 border-slate-900 border-t-transparent rounded-full animate-spin mx-auto mb-3"></div>
         <p className="text-xs text-slate-500 font-medium">Aggregating multi-source intelligence and pipeline metrics...</p>
+      </div>
+    );
+  }
+
+  if (error || !metrics) {
+    return (
+      <div className="bg-white border border-rose-200 rounded-xl p-8 text-center space-y-4 max-w-lg mx-auto my-12 shadow-xs">
+        <AlertCircle className="w-10 h-10 text-rose-500 mx-auto" />
+        <h3 className="text-base font-bold text-slate-900">Unable to Load Executive Overview</h3>
+        <p className="text-xs text-slate-500">
+          {error || 'Dashboard metrics could not be loaded from the API or fallback fixtures.'}
+        </p>
+        {onRetry && (
+          <button
+            onClick={onRetry}
+            className="inline-flex items-center gap-1.5 px-4 py-2 text-xs font-semibold text-white bg-slate-900 hover:bg-slate-800 rounded-md transition-colors"
+          >
+            Retry Connection
+          </button>
+        )}
       </div>
     );
   }

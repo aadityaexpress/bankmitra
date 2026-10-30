@@ -59,10 +59,13 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.on_event("startup")
-def startup_event():
+_DB_BOOTSTRAPPED = False
+
+def ensure_db_ready():
+    global _DB_BOOTSTRAPPED
+    if _DB_BOOTSTRAPPED:
+        return
     init_db()
-    # Check if cases table has records; if not, seed
     conn = get_connection()
     cursor = conn.cursor()
     cursor.execute("SELECT COUNT(*) FROM cases")
@@ -70,6 +73,16 @@ def startup_event():
     conn.close()
     if count == 0:
         seed_database()
+    _DB_BOOTSTRAPPED = True
+
+@app.middleware("http")
+async def bootstrap_db_middleware(request, call_next):
+    ensure_db_ready()
+    return await call_next(request)
+
+@app.on_event("startup")
+def startup_event():
+    ensure_db_ready()
 
 @app.get("/api/health", summary="Service health check")
 def health_check():

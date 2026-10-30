@@ -4,15 +4,30 @@ Zero real customer data. Demonstrates local synthetic case storage and audit tra
 """
 import sqlite3
 import os
+import shutil
+import tempfile
 from pathlib import Path
 from typing import List, Dict, Any, Optional
 
-DB_PATH = os.environ.get(
-    "BANKMITRA_DB_PATH",
-    str(Path(__file__).resolve().parent / "bankmitra.db")
-)
+_BUNDLED_DB_PATH = Path(__file__).resolve().parent / "bankmitra.db"
+
+def _resolve_default_db_path() -> str:
+    env_path = os.environ.get("BANKMITRA_DB_PATH")
+    if env_path:
+        return env_path
+    if os.environ.get("VERCEL") or not os.access(str(_BUNDLED_DB_PATH.parent), os.W_OK):
+        tmp_db = Path(tempfile.gettempdir()) / "bankmitra.db"
+        if not tmp_db.exists() and _BUNDLED_DB_PATH.exists():
+            shutil.copy2(_BUNDLED_DB_PATH, tmp_db)
+        return str(tmp_db)
+    return str(_BUNDLED_DB_PATH)
+
+DB_PATH = _resolve_default_db_path()
 
 def get_connection(db_path: str = DB_PATH) -> sqlite3.Connection:
+    if db_path == DB_PATH and (os.environ.get("VERCEL") or not os.access(str(_BUNDLED_DB_PATH.parent), os.W_OK)):
+        if not os.path.exists(db_path) and _BUNDLED_DB_PATH.exists():
+            shutil.copy2(_BUNDLED_DB_PATH, db_path)
     conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
     conn.execute("PRAGMA foreign_keys = ON;")
